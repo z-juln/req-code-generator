@@ -1,0 +1,26 @@
+{
+  "name": "req-code-generator",
+  "version": "1.0.0",
+  "description": "req-code-generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@juln/change-case": "^1.0.0",
+    "quicktype-core": "^23.0.19",
+    "stable-ts-type": "^1.0.4"
+  }
+}
