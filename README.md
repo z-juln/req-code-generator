@@ -10,7 +10,7 @@
 
 ```typescript
 // @ts-check
-const { default: reqCodeGenerator } = require('../../dist');
+const { default: reqCodeGenerator } = require('req-code-generator');
 
 reqCodeGenerator({
   apiName: 'searchMovies',
