@@ -11,7 +11,7 @@ reqCodeGenerator({
   ],
   body: [
     { name: 'data', type: 'unknown', required: false },
-    {name: 'page', type: 'unknown', required: false },
+    { name: 'page', type: 'unknown', required: false },
   ],
   stableTsTypeInputs: [
     { type: 'request', value: `curl 'https://www.npmjs.com/search?q=stable-ts-type' \

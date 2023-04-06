@@ -12,8 +12,19 @@
     "build": "npx tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "request",
+    "api",
+    "axios",
+    "generator",
+    "generate"
+  ],
+  "author": {
+    "name": "juln",
+    "email": "1850021148@qq.com",
+    "url": "https://github.com/z-juln"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.7.4"
